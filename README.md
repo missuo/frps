@@ -33,7 +33,7 @@ subdomain_host = kyun.pro
 ~~~
 修改为你自己的域名，并且记录下你设置的Token，在配置客户端的时候会用到。dashboard_user和dashboard_pwd修改为你常用的即可，在登陆dashboard的时候会要求你输入。
 
-4. 配置Frps的进程守护。（我介绍的进程守护的方式）
+4. 配置Frps的进程守护
 ~~~
 cd /usr/lib/systemd/system
 vi frps.service
